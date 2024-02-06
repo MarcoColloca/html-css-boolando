@@ -42,7 +42,8 @@ img{
     padding: 5px;
     color: white;
     position: absolute;
-    bottom: 120px;
+    bottom: 70px;
+    z-index: 99;
 }
 
 .card{
@@ -50,9 +51,7 @@ img{
 }
 
 
-.card__header > img {
-	display: block;
-}
+
 
 
 /* HEADER */
@@ -68,7 +67,6 @@ img{
     display: flex;
 }
 
-
 .overlay {
 	position: absolute;
 	width: 100%;
@@ -77,13 +75,21 @@ img{
 	justify-content: center;
 	align-items: center;
 	opacity: 0;
+    z-index: 1;
 }
 
 .card__img:hover .overlay {
 	opacity: 1;
 }
 
+.badge-discount{
+    background-color: red;
+    left: 105px;
+}
 
+.badge-type{
+    background-color: green;
+}
 
 
 .card_description{
@@ -117,13 +123,5 @@ img{
     text-decoration: line-through;
 }
 
-.badge-discount{
-    background-color: red;
-    left: 105px;
-}
-
-.badge-type{
-    background-color: green;
-}
 
 
