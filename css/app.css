@@ -69,6 +69,7 @@ img{
 }
 
 
+
 /* STYLE */
 
 *{
@@ -187,6 +188,15 @@ img{
 }
 
 
+.card_img [class*="badge"]:only-of-type{
+    left: 0;
+    background-color: aqua;
+}
+
+
+.badge-alone{
+    left: 0;
+}
 
 
 /* FOOTER */
