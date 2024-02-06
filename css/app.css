@@ -35,7 +35,6 @@ img{
 
 .col-3{
     width: calc(100%/12*4);
-    padding: 10px;
 }
 
 
@@ -76,6 +75,10 @@ img{
     font-family: 'Open Sans', sans-serif;
 }
 
+.page-main__box-card > .col-3{
+    padding: 10px;
+    margin-bottom: 20px;
+}
 
 /* HEADER */
 
@@ -157,7 +160,7 @@ img{
 }
 
 .card_description{
-    padding-bottom: 30px;
+    /* padding-bottom: 30px; */
 }
 
 
@@ -187,11 +190,6 @@ img{
     text-decoration: line-through;
 }
 
-
-.card_img [class*="badge"]:only-of-type{
-    left: 0;
-    background-color: aqua;
-}
 
 
 .badge-alone{
