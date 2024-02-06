@@ -52,9 +52,39 @@ img{
 
 
 
+/* UTILITY */
+
+.txt-al-r{
+    text-align: right;
+}
+
+.txt-al-c{
+    text-align: center;
+}
+
+
+
 
 
 /* HEADER */
+
+.page-header{
+    background-color: rgb(252, 104, 51);
+    color: white;
+    padding: 20px;
+}
+
+
+.page-header .row {
+	justify-content: space-between;
+}
+
+.logo-img{
+    height: 40px;
+    width: 170px;
+}
+
+
 
 
 
