@@ -90,7 +90,11 @@ img{
     width: 170px;
 }
 
-
+.header-select li{
+    display: inline-block;
+    margin-right: 5px;
+    font-weight: bold;
+}
 
 
 
