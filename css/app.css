@@ -42,7 +42,7 @@ img{
     padding: 5px;
     color: white;
     position: absolute;
-    bottom: 70px;
+    bottom: 50px;
     z-index: 99;
 }
 
@@ -84,11 +84,11 @@ img{
 
 .badge-discount{
     background-color: red;
-    left: 105px;
 }
 
 .badge-type{
     background-color: green;
+    left: 40px;
 }
 
 
