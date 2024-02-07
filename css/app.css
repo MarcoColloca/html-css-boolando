@@ -132,7 +132,7 @@ img{
     z-index: 1;
 }
 
-.card__img:hover .overlay {
+.card:hover .overlay {
 	opacity: 1;
 }
 
